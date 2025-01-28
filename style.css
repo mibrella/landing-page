@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 0 12.5% 0 12.5%;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.sec1 {
+    background-color: #1f2937;
+    padding: 50px 12.5% 75px 12.5%;
+    color: white;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.img-placeholder {
+    flex: 1;
+    background-color: #6d747d;
+    text-align: center;
+    max-height: 200px;
+    min-height: 100px;
+
+}
+.left {
+    flex: 1;
+}
+
+.blue-button {
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    margin-top: 8px;
+    border: none;
+}
+
+.carusel-title {
+    font-size: 36px;
+    font-weight: 900;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3b82f6;
+    border-radius: 15px;
+}
+
+.card {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.grey-section {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.review {
+    width: 650px;
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dialog {
+    background-color: #3b82f6;
+    border-radius: 10px;
+    margin: 75px 12.5% 75px 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+}
+
+.dialog-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.message {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.sign-up {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 25px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    height: 75px;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 75px;
+font-weight: 300;
+}
